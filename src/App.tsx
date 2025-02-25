@@ -66,7 +66,7 @@ function App() {
           <div className="flex flex-col items-center text-center">
             <div className="relative group">
               <img
-                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&h=200"
+                src="https://media.licdn.com/dms/image/v2/C5603AQG27gQ7dyFk7g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1635859361280?e=1746057600&v=beta&t=WwkQ73oVmNVNSD5PMp0PhQpjpMid5Af8Ael0r7FjY20?auto=format&fit=crop&w=200&h=200"
                 alt="Profile"
                 className="w-40 h-40 rounded-full mb-8 ring-4 ring-red-500 group-hover:ring-yellow-400 transition-all duration-300 transform group-hover:scale-105"
               />

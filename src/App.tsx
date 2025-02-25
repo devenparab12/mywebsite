@@ -66,18 +66,14 @@ function App() {
           <div className="flex flex-col items-center text-center">
             <div className="relative group">
               <img
-                <div className="container mx-auto">
-    <div className="flex flex-col items-center text-center">
-      <div className="relative group">
-        <img
-                src="https://postimg.cc/MXwWGkjY"
-                alt="Picture"
+                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&h=200"
+                alt="Profile"
                 className="w-40 h-40 rounded-full mb-8 ring-4 ring-red-500 group-hover:ring-yellow-400 transition-all duration-300 transform group-hover:scale-105"
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-yellow-400/20 to-red-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
-            <h1 className="text-5xl font-bold mb-4 text-yellow-400 animate-fadeIn">Deven Nandkishor Parab</h1>
-            <p className="text-xl text-yellow-200 mb-8 animate-slideUp">Information Technology</p>
+            <h1 className="text-5xl font-bold mb-4 text-yellow-400 animate-fadeIn">Deven Parab</h1>
+            <p className="text-xl text-yellow-200 mb-8 animate-slideUp">Information Technology Student</p>
             <p className="max-w-2xl text-yellow-100 mb-8 animate-slideUp delay-200">
               Proficient in programming, database management, and network administration, with strong troubleshooting and IT support
               skills. Highly skilled at handling diverse tasks and excelling in working long hours. Possess excellent communication and
@@ -85,7 +81,7 @@ function App() {
             </p>
             <div className="flex gap-6 animate-slideUp delay-300">
               <a
-                href="https://github.com/devenparab12"
+                href="https://github.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-yellow-400 hover:text-red-400 transition-all hover:scale-110"

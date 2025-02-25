@@ -70,7 +70,7 @@ function App() {
     <div className="flex flex-col items-center text-center">
       <div className="relative group">
         <img
-                src="https://www.imghippo.com/i/EQpH2310XAc.jpg"
+                src="https://github.com/devenparab12/mywebsite/blob/main/src/Self%20Photo.jpg?raw=true"
                 alt="Profile"
                 className="w-40 h-40 rounded-full mb-8 ring-4 ring-red-500 group-hover:ring-yellow-400 transition-all duration-300 transform group-hover:scale-105"
               />

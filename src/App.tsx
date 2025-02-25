@@ -81,7 +81,7 @@ function App() {
             </p>
             <div className="flex gap-6 animate-slideUp delay-300">
               <a
-                href="https://github.com"
+                href="https://github.com/devenparab12"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-yellow-400 hover:text-red-400 transition-all hover:scale-110"

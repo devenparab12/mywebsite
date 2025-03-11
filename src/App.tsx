@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, ExternalLink, Code2, Briefcase, GraduationCap, User, ChevronUp } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 function App() {
   const [activeSection, setActiveSection] = useState('about');
@@ -10,7 +10,6 @@ function App() {
       const sections = ['about', 'skills', 'experience', 'projects'];
       const scrollPosition = window.scrollY + 100;
 
-      // Find active section
       for (const section of sections) {
         const element = document.getElementById(section);
         if (element) {
@@ -21,8 +20,6 @@ function App() {
           }
         }
       }
-
-      // Show/hide scroll to top button
       setShowScrollTop(window.scrollY > 500);
     };
 
@@ -35,12 +32,14 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-black text-yellow-100">
-      {/* Header/Navigation */}
+    <div className="min-h-screen bg-custom text-yellow-100">
       <nav className="fixed w-full bg-black/80 backdrop-blur-sm z-50">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <span className="text-2xl font-bold text-yellow-400 cursor-pointer hover:scale-105 transition-transform" onClick={scrollToTop}>
+            <span
+              className="text-2xl font-bold text-yellow-400 cursor-pointer hover:scale-105 transition-transform"
+              onClick={scrollToTop}
+            >
               Portfolio
             </span>
             <div className="flex gap-6">
@@ -60,7 +59,6 @@ function App() {
         </div>
       </nav>
 
-      {/* Hero Section */}
       <section id="about" className="pt-32 pb-20 px-6">
         <div className="container mx-auto">
           <div className="flex flex-col items-center text-center">
@@ -106,7 +104,6 @@ function App() {
           </div>
         </div>
       </section>
-
       {/* Skills Section */}
       <section id="skills" className="py-20 bg-red-950/20 px-6">
         <div className="container mx-auto">

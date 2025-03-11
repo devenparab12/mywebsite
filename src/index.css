@@ -41,3 +41,10 @@
 html {
   scroll-behavior: smooth;
 }
+
+.bg-custom {
+  background-image: url('https://i.pinimg.com/474x/85/53/cc/8553cc1dcf8d1c1bacd5a1afca5f9b58.jpg'); /* Replace with your image URL */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}

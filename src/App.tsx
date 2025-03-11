@@ -35,15 +35,12 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen text-yellow-100">
+    <div className="min-h-screen bg-black text-yellow-100">
       {/* Header/Navigation */}
       <nav className="fixed w-full bg-black/80 backdrop-blur-sm z-50">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <span
-              className="text-2xl font-bold text-yellow-400 cursor-pointer hover:scale-105 transition-transform"
-              onClick={scrollToTop}
-            >
+            <span className="text-2xl font-bold text-yellow-400 cursor-pointer hover:scale-105 transition-transform" onClick={scrollToTop}>
               Portfolio
             </span>
             <div className="flex gap-6">
@@ -69,14 +66,14 @@ function App() {
           <div className="flex flex-col items-center text-center">
             <div className="relative group">
               <img
-                src="https://media.licdn.com/dms/image/v2/C5603AQG27gQ7dyFk7g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1635859361280?e=1746057600&v=beta&t=WwkQ73oVmNVNSD5PMp0PhQpjpMid5Af8Ael0r7FjY20"
+                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&h=200"
                 alt="Profile"
                 className="w-40 h-40 rounded-full mb-8 ring-4 ring-red-500 group-hover:ring-yellow-400 transition-all duration-300 transform group-hover:scale-105"
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-yellow-400/20 to-red-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
-            <h1 className="text-5xl font-bold mb-4 text-yellow-400 animate-fadeIn">Deven Nandkishor Parab</h1>
-            <p className="text-xl text-yellow-200 mb-8 animate-slideUp">Information Technology</p>
+            <h1 className="text-5xl font-bold mb-4 text-yellow-400 animate-fadeIn">Deven Parab</h1>
+            <p className="text-xl text-yellow-200 mb-8 animate-slideUp">Information Technology Student</p>
             <p className="max-w-2xl text-yellow-100 mb-8 animate-slideUp delay-200">
               Proficient in programming, database management, and network administration, with strong troubleshooting and IT support
               skills. Highly skilled at handling diverse tasks and excelling in working long hours. Possess excellent communication and
